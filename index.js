@@ -1,6 +1,4 @@
-const fs = require('fs');
-const pdf = require('pdf-parse');
-const OpenAI = require('openai');
+
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 require('dotenv').config();
 
@@ -18,7 +16,7 @@ const giveDetails = async (text) => {
         - Customer Details
         - Products
         - Total Amount
-         just give specified data in text format
+        Just give specified data in text format.
         `;
         const result = await model.generateContent(prompt);
         return result.response.text();
