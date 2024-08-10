@@ -93,4 +93,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 See Xtractify in action! Watch the demo video below:
 
-![Demo Video](Xtractify.mp4)
+
+[![Demo video](Xtractify.gif)](https://www.youtube.com/watch?v=JxORipPXIwY)
